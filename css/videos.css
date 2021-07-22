@@ -1,0 +1,9 @@
+.videos__imagenes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+iframe{
+  width: -webkit-fill-available;
+
+}

@@ -1,0 +1,68 @@
+#hero .carousel-item{
+  height: 400px;
+  overflow: hidden;
+}
+.bienvenida__texto-1{
+  border-radius: 0  0 25px 0;
+}
+.bienvenida__texto-2{
+  border-radius: 0  0  0 25px;
+}
+.bienvenida__texto-3{
+  border-radius: 0 25px 0 0;
+}
+.bienvenida__texto-4{
+  border-radius: 25px  0  0  0;
+}
+
+.my-6{
+  margin-top: 5rem!important;
+}
+
+main .carousel {
+  margin: 4rem;
+  text-align: center;
+}
+main .carousel .carousel_contenedor {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+main .carousel .carousel_contenedor img {
+  width: 40rem;
+  height: 13rem;
+}
+
+.glider-slide {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+main .carousel .carousel_anterior, .carousel_siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 15%);
+  cursor: pointer;
+  font-size: 38px;
+  text-align: center;
+  background: none;
+  color: black;
+  opacity: 20%;
+  outline: none;
+}
+
+.carousel_anterior {
+  left: -40px;
+}
+
+.carousel_siguiente {
+  right: -32px;
+}
+
+
